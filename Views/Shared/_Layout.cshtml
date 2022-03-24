@@ -29,28 +29,6 @@
 </head>
 
 <body>
-  @* <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-    <div class="container-fluid">
-    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Japanese_C_dang_iu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-    <ul class="navbar-nav flex-grow-1">
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </nav>
-    </header> *@
-
   <header class="site-header site-header__home-three">
     <div class="topbar-one">
       <div class="container">
@@ -60,7 +38,7 @@
         </div>
         <!-- /.topbar-one__left -->
         <div class="topbar-one__right">
-          <a href="#">Login</a>
+          <a asp-area="" asp-controller="Home" asp-action="Login">Login</a>
           <a href="#">Register</a>
         </div>
         <!-- /.topbar-one__right -->
@@ -68,59 +46,52 @@
       <!-- /.container -->
     </div>
     <!-- /.topbar-one -->
-    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
-      <div class="container clearfix">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="logo-box clearfix">
-          <a class="navbar-brand" href="index-.html">
-            <img src="~/assets/images/logo-light.png" class="main-logo" width="128" alt="Awesome Image" />
-          </a>
-          <button class="menu-toggler" data-target=".main-navigation">
-            <span class="kipso-icon-menu"></span>
-          </button>
-        </div>
-        <!-- /.logo-box -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="main-navigation">
-          <ul class="navigation-box">
-            <li class="current">
-              <a href="index-3.html">Home</a>
-            </li>
-            <li>
-              <a href="#">Pages</a>
-              <ul class="sub-menu">
-                <li><a href="pricing.html">Pricing Plans</a></li>
-                <li><a href="faq.html">FAQ'S</a></li>
-              </ul>
-              <!-- /.sub-menu -->
-            </li>
-            <li>
-              <a href="courses.html">Courses</a>
-              <ul class="sub-menu">
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="course-details-n5.html">Course Details</a></li>
-              </ul>
-              <!-- /.sub-menu -->
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-        <div class="right-side-box">
-          <div class="header__social">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+    @if (ViewData["isShownNavbar"] != null && (bool)ViewData["isShownNavbar"] == true)
+    {
+
+      <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+        <div class="container clearfix">
+          <div class="logo-box clearfix">
+            <a class="navbar-brand" href="index-.html">
+              <img src="~/assets/images/logo-light.png" class="main-logo" width="128" alt="Awesome Image" />
+            </a>
+            <button class="menu-toggler" data-target=".main-navigation">
+              <span class="kipso-icon-menu"></span>
+            </button>
           </div>
-          <!-- /.header__social -->
+
+          <div class="main-navigation">
+            <ul class="navigation-box">
+              <li class="current">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+              </li>
+              <li>
+                <a href="courses.html">Courses</a>
+                <ul class="sub-menu">
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="course-details-n5.html">Course Details</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right-side-box">
+            <div class="header__social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+          </div>
+
         </div>
-        <!-- /.right-side-box -->
-      </div>
-      <!-- /.container -->
-    </nav>
+
+      </nav>
+    }
   </header>
 
 

@@ -1,16 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using Japanese_C_dang_iu.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+var Services = builder.Services;
+
+// Add SQL Server
+Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CDangIuDb")));
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+  app.UseExceptionHandler("/Home/Error");
+  // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+  app.UseHsts();
 }
 
 app.UseHttpsRedirection();
