@@ -1,11 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Japanese_C_dang_iu.Models;
+using Japanese_C_dang_iu.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var Services = builder.Services;
 
 // Add SQL Server
-Services.AddDbContext<DataContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CDangIuDb")));
+Services.AddDbContext<DataContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+// Add custom services
+Services.AddScoped<IUserService, UserService>();
 
 // Add services to the container.
 Services.AddControllersWithViews();

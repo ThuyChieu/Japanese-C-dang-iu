@@ -4,6 +4,7 @@ namespace Japanese_C_dang_iu.Models
 {
   public class User
   {
+    [Key]
     public int UserId { get; set; }
 
     [MaxLength(256)]

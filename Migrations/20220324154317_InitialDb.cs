@@ -4,7 +4,7 @@
 
 namespace Japanese_C_dang_iu.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
