@@ -2055,14 +2055,6 @@
                     <i class="flaticon-password"></i>
                   </div>
                 </div>
-                <div class="checkbox form-group clearfix">
-                  <div class="form-check float-start">
-                    <input class="form-check-input" type="checkbox" id="rememberme">
-                    <label class="form-check-label" for="rememberme">
-                      Remember me
-                    </label>
-                  </div>
-                </div>
                 <div class="form-group clearfix">
                   <asp:Button ID="loginBtn" runat="server" postbackurl="Home.aspx" type="submit" class="btn btn-primary btn-lg btn-theme w-100" Text="Login" OnClick="loginBtn_Click" />
                 </div>
