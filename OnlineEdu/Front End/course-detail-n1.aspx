@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="course-detail-n1.aspx.cs" Inherits="OnlineEdu.Front_End.course_detail_n1" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -119,12 +121,12 @@
                         <div class="course-details__content">
                             <p class="course-details__author">
                                 <img src="assets/images/team-1-1.jpg" alt="">
-                                by <a>Anh Minh</a>
+                                by <a href="#">Anh Minh</a>
                             </p><!-- /.course-details__author -->
 
                             <div class="course-details__top">
                                 <div class="course-details__top-left">
-                                    <h2 class="course-details__title">JLPT N3</h2>
+                                    <h2 class="course-details__title">JLPT N1</h2>
                                     <!-- /.course-details__title -->
                                     <div class="course-one__stars">
                                         <span class="course-one__stars-wrap">
@@ -139,11 +141,11 @@
                                     </div><!-- /.course-one__stars -->
                                 </div><!-- /.course-details__top-left -->
                                 <div class="course-details__top-right">
-                                    <a href="#" class="course-one__category">intermediate</a><!-- /.course-one__category -->
+                                    <a href="#" class="course-one__category">advanced</a><!-- /.course-one__category -->
                                 </div><!-- /.course-details__top-right -->
                             </div><!-- /.course-details__top -->
                             <div class="course-one__image">
-                                <img src="assets/images/course-d-3.jpg" alt="">
+                                <img src="assets/images/course-d-5.jpg" alt="">
                                 <i class="far fa-heart"></i><!-- /.far fa-heart -->
                             </div><!-- /.course-one__image -->
 
@@ -160,24 +162,24 @@
                             </ul><!-- /.course-details__tab-navs list-unstyled -->
                             <div class="tab-content course-details__tab-content ">
                                 <div class="tab-pane show active  animated fadeInUp" role="tabpanel" id="overview">
-                                    <p class="course-details__tab-text">The “Online Japanese N3 Course” is Japanese study materials related to the JLPT N3 level. You can study vocabulary, grammar, reading comprehension that corresponds to the JLPT N3 level. The Japanese of N3 level is applied in actual conversations, so this course is useful for JLPT preparation and advancing your Japanese communication proficiency.
+                                    <p class="course-details__tab-text">The “Online Japanese N1 Course” is a Japanese study material related to the JLPT N1 level. You can study vocabulary, grammar, reading comprehension that corresponds to the JLPT N2 level. The Japanese of N1 level is applied in actual conversations, so this course is useful for JLPT preparation and advancing your Japanese communication proficiency.
 
                                     </p><!-- /.course-details__tab-text -->
                                     <br>
-                                    <p class="course-details__tab-text"> You will be able to access to our Video Lecture 24 hours a day. Our Live Lecture is in in small group. You can participate in classes anywhere with the internet connection. You can also access to the recorded lectures even if you are absent.
+                                    <p class="course-details__tab-text">You will be able to access to our Video Lecture 24 hours a day. Our Live Lecture is in in small group. You can participate in classes anywhere with the internet connection. You can also access to the recorded lectures even if you are absent.
                                         
                                     </p>
                                     <!-- /.course-details__tab-text -->
                                     <br>
                                     <ul class="list-unstyled course-details__overview-list">
-                                        <li>Master vocabulary, grammar, and reading comprehension related to the JLPT N3.</li>
-                                        <li>Be able to comprehend and read everyday topics, slightly complex Japanese sentences, newspaper headlines</li>
-                                        <li>Be able to speak and understand intermediate level business Japanese.</li>
-                                        <li>Be able to comprehend contents spoken in almost natural speed in daily life conversations.</li>
+                                        <li>Master vocabulary, grammar, and reading comprehension related to the JLPT N1.</li>
+                                        <li>Be able to read articles and commentary on a variety of topics, such as in newspapers and magazines as well as simple critiques, and comprehend their contents.</li>
+                                        <li>Be able to speak and understand advanced business Japanese.</li>
+                                        <li>Be able to understand Japanese used in everyday situations</li>
                                     </ul><!-- /.list-unstyled course-details__overview-list -->
                                 </div><!-- /.course-details__tab-content -->
                                 <div class="tab-pane  animated fadeInUp" role="tabpanel" id="curriculum">
-                                    <h3 class="course-details__tab-title">Starting intermediate level course</h3>
+                                    <h3 class="course-details__tab-title">Starting beginners level course</h3>
                                     <!-- /.course-details__title -->
                                     <br>
                                     <p class="course-details__tab-text"></p>
@@ -220,7 +222,7 @@
                                                 </div><!-- /.course-details__icon -->
                                                 <a>Quiz</a>
                                             </div><!-- /.course-details__curriculum-list-left -->
-                                            <div class="course-details__curriculum-list-right">200 questions</div>
+                                            <div class="course-details__curriculum-list-right">55 questions</div>
                                             <!-- /.course-details__curriculum-list-right -->
                                         </li>
                                     </ul><!-- /.course-details__curriculum-list -->
@@ -258,7 +260,7 @@
                                                 </div><!-- /.course-details__icon -->
                                                 <a>Quiz</a>
                                             </div><!-- /.course-details__curriculum-list-left -->
-                                            <div class="course-details__curriculum-list-right">230 questions</div>
+                                            <div class="course-details__curriculum-list-right">50 questions</div>
                                             <!-- /.course-details__curriculum-list-right -->
                                         </li>
                                     </ul><!-- /.course-details__curriculum-list -->
@@ -336,10 +338,10 @@
                                                 <div class="course-details__comment-img">
                                                     <img src="assets/images/team-1-1.jpg" alt="">
                                                 </div><!-- /.course-details__comment-img -->
-                                                <div class="course-details__comment-right">Bao Ngoc</h2>
+                                                <div class="course-details__comment-right">Nhu Quynh</h2>
                                                     <!-- /.course-details__comment-name -->
                                                     <div class="course-details__comment-meta">
-                                                        <p class="course-details__comment-date">29 Jan, 2022</p>
+                                                        <p class="course-details__comment-date">26 Jan, 2022</p>
                                                         <!-- /.course-details__comment-date -->
                                                         <div class="course-details__comment-stars">
                                                             <i class="fa fa-star"></i><!-- /.fa fa-star -->
@@ -351,7 +353,7 @@
                                                     </div><!-- /.course-details__comment-meta -->
                                                 </div><!-- /.course-details__comment-right -->
                                             </div><!-- /.course-details__comment-top -->
-                                            <p class="course-details__comment-text">Kipso has awesome methods to teach Japanese Language. They are very professional making lessons comfortable even if the class level is a bit more hard. Halfway Update: Like in Schools timeline new Kyoshi but with the same quality and professionalism like Ando Aki Sensei. Sumiyoshi Risa Sensei has the same passion to teach. Final Update: My best feelings to learn with you, now move on the N2 course. Thank you so much Kipso.</p>
+                                            <p class="course-details__comment-text">The course is very easy to understand. Grammar and reading comprehension are covered very well. Though the vocabulary is limited the explanation for tricky meaning words is covered nicely. Thank you for this course.</p>
                                             <!-- /.course-details__comment-text -->
                                         </div><!-- /.course-details__comment-single -->
                                         <div class="course-details__comment-single">
@@ -360,10 +362,10 @@
                                                     <img src="assets/images/team-1-2.jpg" alt="">
                                                 </div><!-- /.course-details__comment-img -->
                                                 <div class="course-details__comment-right">
-                                                    <h2 class="course-details__comment-name">Khanh Ha</h2>
+                                                    <h2 class="course-details__comment-name">Ly Phan</h2>
                                                     <!-- /.course-details__comment-name -->
                                                     <div class="course-details__comment-meta">
-                                                        <p class="course-details__comment-date">30 July, 2021</p>
+                                                        <p class="course-details__comment-date">17 July, 2020</p>
                                                         <!-- /.course-details__comment-date -->
                                                         <div class="course-details__comment-stars">
                                                             <i class="fa fa-star"></i><!-- /.fa fa-star -->
@@ -375,9 +377,7 @@
                                                     </div><!-- /.course-details__comment-meta -->
                                                 </div><!-- /.course-details__comment-right -->
                                             </div><!-- /.course-details__comment-top -->
-                                            <p class="course-details__comment-text">Very very good course. Will not make you pass the N3 on its own, some supplemental vocabulary and grammar should be studied elsewhere.
-
-                                                Videos and audios are high quality.</p>
+                                            <p class="course-details__comment-text">I just started using this course. As I always travel and spend a couple of hours on trains, being able to watch Japanese lessons and prepare for JLPT N1 while traveling saves me staying up late to study. I just finished half of the entire lesson and I can say that this is one of the best online video lesson for JLPT</p>
                                             <!-- /.course-details__comment-text -->
                                         </div><!-- /.course-details__comment-single -->
                                     </div><!-- /.course-details__comment -->
@@ -403,7 +403,7 @@
                     <div class="col-lg-4">
                         <div class="course-details__price">
                             <p class="course-details__price-text">Course price </p><!-- /.course-details__price-text -->
-                            <p class="course-details__price-amount">4.000.000VND</p><!-- /.course-details__price-amount -->
+                            <p class="course-details__price-amount">5.000.000VND</p><!-- /.course-details__price-amount -->
                             <a href="#" class="thm-btn course-details__price-btn">Buy This Course</a><!-- /.thm-btn -->
                         </div><!-- /.course-details__price -->
 
@@ -418,7 +418,7 @@
                                 <span class="course-details__meta-icon">
                                     <i class="far fa-folder-open"></i><!-- /.far fa-folder-open -->
                                 </span><!-- /.course-details__icon -->
-                                Quizzes: 430</span>
+                                Quizzes: 272</span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
@@ -430,13 +430,13 @@
                                 <span class="course-details__meta-icon">
                                     <i class="fas fa-play"></i><!-- /.fas fa-play -->
                                 </span><!-- /.course-details__icon -->
-                                Video: 1285 </span>
+                                Video: 672 </span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
                                     <i class="far fa-flag"></i><!-- /.far fa-flag -->
                                 </span><!-- /.course-details__icon -->
-                                Skill Level: Intermediate</span>
+                                Skill Level: Advanced</span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
@@ -466,11 +466,11 @@
                             </div><!-- /.course-details__list-item -->
                             <div class="course-details__list-item">
                                 <div class="course-details__list-img">
-                                    <img src="assets/images/lc-1-0.jpg" alt="">
+                                    <img src="assets/images/lc-1-2.jpg" alt="">
                                 </div><!-- /.course-details__list-img -->
                                 <div class="course-details__list-content">
-                                    <a class="course-details__list-author">by <span>Anh Minh</span></a>
-                                    <h3><a href="course-details-n5.html">JLPT N5</a></h3>
+                                    <a class="course-details__list-author">by <span>Thuy Chill</span></a>
+                                    <h3><a href="course-details-n3.html">JLPT N3</a></h3>
                                     <div class="course-details__list-stars">
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
@@ -500,11 +500,11 @@
                             </div><!-- /.course-details__list-item -->
                             <div class="course-details__list-item">
                                 <div class="course-details__list-img">
-                                    <img src="assets/images/lc-1-4.jpg" alt="">
+                                    <img src="assets/images/lc-1-0.jpg" alt="">
                                 </div><!-- /.course-details__list-img -->
                                 <div class="course-details__list-content">
                                     <a class="course-details__list-author">by <span>Thuy Chill</span></a>
-                                    <h3><a href="course-details-n1.html">JLPT N1</a></h3>
+                                    <h3><a href="course-details-n5.html">JLPT N5</a></h3>
                                     <div class="course-details__list-stars">
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->

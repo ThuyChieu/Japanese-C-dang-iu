@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index-3.aspx.cs" Inherits="OnlineEdu.index_3" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +49,7 @@
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index-.html">
+                        <a class="navbar-brand" href="index-3.aspx">
                             <img src="assets/images/logo-light.png" class="main-logo" width="128" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target=".main-navigation">
@@ -58,24 +60,24 @@
                     <div class="main-navigation">
                         <ul class=" navigation-box">
                             <li class="current">
-                                <a href="index-3.html">Home</a>
+                                <a href="index-3.aspx">Home</a>
                             </li>
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="sub-menu">
-                                    <li><a href="pricing.html">Pricing Plans</a></li>
-                                    <li><a href="faq.html">FAQ'S</a></li>
+                                    <li><a href="pricing.aspx">Pricing Plans</a></li>
+                                    <li><a href="faq.aspx">FAQ'S</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="courses.html">Courses</a>
+                                <a href="courses.aspx">Courses</a>
                                 <ul class="sub-menu">
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="course-details-n5.html">Course Details</a></li>
+                                    <li><a href="courses.aspx">Courses</a></li>
+                                    <li><a href="course-details-n5.aspx">Course Details</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="Contact.aspx">Contact</a>
                             </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -137,9 +139,9 @@
                                 <a href="#" class="course-one__category">begin</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-1.jpg" alt="">
-                                    by <a href="teacher-details.html">Anh Minh</a>
+                                    by <a href="#">Anh Minh</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n5.html">JLPT N5</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n5.aspx">JLPT N5</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -153,9 +155,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n5.html"><i class="fab fa-youtube"></i> 492 Videos</a>
-                                    <a href="course-details-n5.html"><i class="fas fa-pen-square"></i> 105 Quizzes</a>
-                                    <a href="course-details-n5.html">$18</a>
+                                    <a href="course-details-n5.aspx"><i class="fab fa-youtube"></i> 492 Videos</a>
+                                    <a href="course-details-n5.aspx"><i class="fas fa-pen-square"></i> 105 Quizzes</a>
+                                    <a href="course-details-n5.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -171,9 +173,9 @@
                                 <a href="#" class="course-one__category">pre-intermediate</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-2.jpg" alt="">
-                                    by <a href="teacher-details.html">Anh Minh</a>
+                                    by <a href="#">Anh Minh</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n4.html">JLPT N4</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n4.aspx">JLPT N4</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -187,9 +189,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n4.html"><i class="fab fa-youtube"></i> 462 Videos</a>
-                                    <a href="course-details-n4.html"><i class="fas fa-pen-square"></i> 80 Quizzes</a>
-                                    <a href="course-details-n4.html">$18</a>
+                                    <a href="course-details-n4.aspx"><i class="fab fa-youtube"></i> 462 Videos</a>
+                                    <a href="course-details-n4.aspx"><i class="fas fa-pen-square"></i> 80 Quizzes</a>
+                                    <a href="course-details-n4.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -205,9 +207,9 @@
                                 <a href="#" class="course-one__category">intermediate</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-3.jpg" alt="">
-                                    by <a href="teacher-details.html">Thuy Chill</a>
+                                    by <a href="#">Thuy Chill</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n3.html">JLPT N3</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n3.aspx">JLPT N3</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -221,9 +223,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n3.html"><i class="fab fa-youtube"></i> 1285 Videos</a>
-                                    <a href="course-details-n3.html"><i class="fas fa-pen-square"></i> 430 Quizzes</a>
-                                    <a href="course-details-n3.html">$18</a>
+                                    <a href="course-details-n3.aspx"><i class="fab fa-youtube"></i> 1285 Videos</a>
+                                    <a href="course-details-n3.aspx"><i class="fas fa-pen-square"></i> 430 Quizzes</a>
+                                    <a href="course-details-n3.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -239,9 +241,9 @@
                                 <a href="#" class="course-one__category">low advanced</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-4.jpg" alt="">
-                                    by <a href="teacher-details.html">Thuy Chill</a>
+                                    by <a href="#">Thuy Chill</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n2.html">JLPT N2</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n2.aspx">JLPT N2</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -255,9 +257,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n2.html"><i class="fab fa-youtube"></i> 979 Videos</a>
-                                    <a href="course-details-n2.html"><i class="fas fa-pen-square"></i> 214 Quizzes</a>
-                                    <a href="course-details-n2.html">$18</a>
+                                    <a href="course-details-n2.aspx"><i class="fab fa-youtube"></i> 979 Videos</a>
+                                    <a href="course-details-n2.aspx"><i class="fas fa-pen-square"></i> 214 Quizzes</a>
+                                    <a href="course-details-n2.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -273,9 +275,9 @@
                                 <a href="#" class="course-one__category">advanced</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-5.jpg" alt="">
-                                    by <a href="teacher-details.html">Thuy Chill</a>
+                                    by <a href="#">Thuy Chill</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n1.html">JLPT N1</a>
+                                <h2 class="course-one__title"><a href="course-details-n1.aspx">JLPT N1</a>
                                 </h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
@@ -290,9 +292,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n1.html"><i class="fab fa-youtube"></i> 672 Videos</a>
-                                    <a href="course-details-n1.html"><i class="fas fa-pen-square"></i> 272 Quizzes</a>
-                                    <a href="course-details-n1.html">$18</a>
+                                    <a href="course-details-n1.aspx"><i class="fab fa-youtube"></i> 672 Videos</a>
+                                    <a href="course-details-n1.aspx"><i class="fas fa-pen-square"></i> 272 Quizzes</a>
+                                    <a href="course-details-n1.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -308,9 +310,9 @@
                                 <a href="#" class="course-one__category">begin</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-1.jpg" alt="">
-                                    by <a href="teacher-details.html">Anh Minh</a>
+                                    by <a href="#">Anh Minh</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n5.html">JLPT N5</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n5.aspx">JLPT N5</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -324,11 +326,11 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n5.html"><i class="fab fa-youtube"></i> 492 Videos</a>
-                                    <a href="course-details-n5.html"><i class="fas fa-pen-square"></i> 105 Quizzes</a>
-                                    <a href="course-details-n5.html">$18</a>
+                                    <a href="course-details-n5.aspx"><i class="fab fa-youtube"></i> 492 Videos</a>
+                                    <a href="course-details-n5.aspx"><i class="fas fa-pen-square"></i> 105 Quizzes</a>
+                                    <a href="course-details-n5.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
-                                <a href="course-details-n5.html" class="course-one__link">See Preview</a><!-- /.course-one__link -->
+                                <a href="course-details-n5.aspx" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
                         </div><!-- /.course-one__single -->
                     </div><!-- /.item -->
@@ -342,9 +344,9 @@
                                 <a href="#" class="course-one__category">pre-intermediate</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-2.jpg" alt="">
-                                    by <a href="teacher-details.html">Anh Minh</a>
+                                    by <a href="#">Anh Minh</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n4.html">JLPT N4</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n4.aspx">JLPT N4</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -358,9 +360,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n4.html"><i class="fab fa-youtube"></i> 462 Videos</a>
-                                    <a href="course-details-n4.html"><i class="fas fa-pen-square"></i> 80 Quizzes</a>
-                                    <a href="course-details-n4.html">$18</a>
+                                    <a href="course-details-n4.aspx"><i class="fab fa-youtube"></i> 462 Videos</a>
+                                    <a href="course-details-n4.aspx"><i class="fas fa-pen-square"></i> 80 Quizzes</a>
+                                    <a href="course-details-n4.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -376,9 +378,9 @@
                                 <a href="#" class="course-one__category">intermediate</a><!-- /.course-one__category -->
                                 <div class="course-one__admin">
                                     <img src="assets/images/team-1-3.jpg" alt="">
-                                    by <a href="teacher-details.html">Thuy Chill</a>
+                                    by <a href="#">Thuy Chill</a>
                                 </div><!-- /.course-one__admin -->
-                                <h2 class="course-one__title"><a href="course-details-n3.html">JLPT N3</a></h2>
+                                <h2 class="course-one__title"><a href="course-details-n3.aspx">JLPT N3</a></h2>
                                 <!-- /.course-one__title -->
                                 <div class="course-one__stars">
                                     <span class="course-one__stars-wrap">
@@ -392,9 +394,9 @@
                                     <span class="course-one__stars-count">250</span><!-- /.course-one__stars-count -->
                                 </div><!-- /.course-one__stars -->
                                 <div class="course-one__meta">
-                                    <a href="course-details-n3.html"><i class="fab fa-youtube"></i> 1285 Videos</a>
-                                    <a href="course-details-n3.html"><i class="fas fa-pen-square"></i> 430 Quizzes</a>
-                                    <a href="course-details-n3.html">$18</a>
+                                    <a href="course-details-n3.aspx"><i class="fab fa-youtube"></i> 1285 Videos</a>
+                                    <a href="course-details-n3.aspx"><i class="fas fa-pen-square"></i> 430 Quizzes</a>
+                                    <a href="course-details-n3.aspx">$18</a>
                                 </div><!-- /.course-one__meta -->
                                 <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
                             </div><!-- /.course-one__content -->
@@ -466,7 +468,7 @@
                                             </div><!-- /.progress-one__single -->
                                         </div><!-- /.progress-one__wrap -->
 
-                                        <a href="course-details-n3.html" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
+                                        <a href="course-details-n3.aspx" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
                                     </div><!-- /.team-tab__content -->
                                 </div><!-- /.my-auto -->
                             </div><!-- /.col-lg-6 -->
@@ -535,7 +537,7 @@
                                             </div><!-- /.progress-one__single -->
                                         </div><!-- /.progress-one__wrap -->
 
-                                        <a href="course-details-n5.html" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
+                                        <a href="course-details-n5.aspx" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
                                     </div><!-- /.team-tab__content -->
                                 </div><!-- /.my-auto -->
                             </div><!-- /.col-lg-6 -->
@@ -780,7 +782,7 @@
                 <h2 class="cta-five__title">Start growing with <br>
                     the community</h2><!-- /.cta-five__title -->
                 <p class="cta-five__text">Learning Japanese is to open your future</p><!-- /.cta-five__text -->
-                <a href="course-details-n5.html" class="thm-btn cta-five__btn">Learn More</a><!-- /.thm-btn cta-five__btn -->
+                <a href="course-details-n5.aspx" class="thm-btn cta-five__btn">Learn More</a><!-- /.thm-btn cta-five__btn -->
             </div><!-- /.container text-center -->
         </section><!-- /.cta-five -->
         <footer class="site-footer">
@@ -792,11 +794,11 @@
                                 <h2 class="footer-widget__title">Courses</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__course-list">
                                     <li>
-                                        <h2><a href="course-details-n5.html">Online Japanese for beginners</a></h2>
+                                        <h2><a href="course-details-n5.aspx">Online Japanese for beginners</a></h2>
                                         <p>Anh Minh</p>
                                     </li>
                                     <li>
-                                        <h2><a href="course-details-n5.html">Online Japanese for intermediate students</a></h2>
+                                        <h2><a href="course-details-n5.aspx">Online Japanese for intermediate students</a></h2>
                                         <p>Thuy Chill</p>
                                     </li>
                                 </ul><!-- /.footer-widget__course-list -->
@@ -807,10 +809,10 @@
                                 <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
                                 <div class="footer-widget__link-wrap">
                                     <ul class="list-unstyled footer-widget__link-list">
-                                        <li><a href="index-3.html">Overview</a></li> 
-                                        <li><a href="courses.html">Course </a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="#">Register Now</a></li>
+                                        <li><a href="index-3.aspx">Overview</a></li> 
+                                        <li><a href="courses.aspx">Course </a></li>
+                                        <li><a href="contact.aspx">Contact</a></li>
+                                        <li><a href="regiter.aspx">Register Now</a></li>
                                     </ul><!-- /.footer-widget__link-list -->
                                 </div><!-- /.footer-widget__link-wrap -->
                             </div><!-- /.footer-widget -->
@@ -834,8 +836,8 @@
                                 <p class="footer-widget__text"> Japanese learning center. <br> 
                                     All of the narration contains English subtitles, so that foreigner Japanese learners can freely study.</p><!-- /.footer-widget__text -->
                                 <div class="footer-widget__btn-block">
-                                    <a href="contact.html" class="thm-btn">Contact</a><!-- /.thm-btn -->
-                                    <a href="#" class="thm-btn">Purchase</a><!-- /.thm-btn -->
+                                    <a href="Contact.aspx" class="thm-btn">Contact</a><!-- /.thm-btn -->
+                                    <a href="pricing.aspx" class="thm-btn">Purchase</a><!-- /.thm-btn -->
                                 </div><!-- /.footer-widget__btn-block -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-3 -->

@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Front End\courses.aspx" />
+    <Content Include="Front End\faq.aspx" />
     <Content Include="Front End\assets\images\bàn học của C.jpg" />
     <Content Include="Front End\assets\images\DSC_8825.jpg" />
     <Content Include="Front End\assets\images\favicons\site.webmanifest" />
@@ -112,7 +114,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Front End\about.html" />
     <Content Include="Front End\assets\css\animate.min.css" />
     <Content Include="Front End\assets\css\bootstrap.min.css" />
     <Content Include="Front End\assets\css\magnific-popup.css" />
@@ -264,32 +265,74 @@
     <Content Include="Front End\assets\plugins\kipso-icons\fonts\kipso-icon.svg" />
     <Content Include="Front End\assets\plugins\kipso-icons\Read Me.txt" />
     <Content Include="Front End\assets\plugins\kipso-icons\style.css" />
-    <Content Include="Front End\become-teacher.html" />
-    <Content Include="Front End\contact.html" />
-    <Content Include="Front End\course-details.html" />
-    <Content Include="Front End\courses.html" />
-    <Content Include="Front End\faq.html" />
-    <Content Include="Front End\gallery.html" />
-    <Content Include="Front End\index-2.html" />
-    <Content Include="Front End\index-3.html" />
-    <Content Include="Front End\index.html" />
+    <Content Include="Front End\Contact.aspx" />
+    <Content Include="Front End\course-detail-n1.aspx" />
+    <Content Include="Front End\course-detail-n2.aspx" />
+    <Content Include="Front End\course-detail-n3.aspx" />
+    <Content Include="Front End\course-detail-n4.aspx" />
+    <Content Include="Front End\course-detail-n5.aspx" />
     <Content Include="Front End\Login.aspx" />
-    <Content Include="Front End\news-details.html" />
-    <Content Include="Front End\news.html" />
-    <Content Include="Front End\pricing.html" />
-    <Content Include="Front End\teachers.html" />
-    <Content Include="Front End\team-details.html" />
-    <Content Include="Front End\Home.aspx" />
-    <Content Include="Front End\WebForm2.aspx" />
+    <Content Include="Front End\index-3.aspx" />
+    <Content Include="Front End\pricing.aspx" />
+    <Content Include="Front End\register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Front End\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Front End\courses.aspx.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Front End\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Front End\courses.aspx.designer.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\course-detail-n1.aspx.cs">
+      <DependentUpon>course-detail-n1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\course-detail-n1.aspx.designer.cs">
+      <DependentUpon>course-detail-n1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\course-detail-n2.aspx.cs">
+      <DependentUpon>course-detail-n2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\course-detail-n2.aspx.designer.cs">
+      <DependentUpon>course-detail-n2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\course-detail-n3.aspx.cs">
+      <DependentUpon>course-detail-n3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\course-detail-n3.aspx.designer.cs">
+      <DependentUpon>course-detail-n3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\course-detail-n4.aspx.cs">
+      <DependentUpon>course-detail-n4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\course-detail-n4.aspx.designer.cs">
+      <DependentUpon>course-detail-n4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\course-detail-n5.aspx.cs">
+      <DependentUpon>course-detail-n5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\course-detail-n5.aspx.designer.cs">
+      <DependentUpon>course-detail-n5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Front End\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -298,14 +341,28 @@
     <Compile Include="Front End\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Front End\WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Front End\index-3.aspx.cs">
+      <DependentUpon>index-3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Front End\WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Front End\index-3.aspx.designer.cs">
+      <DependentUpon>index-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front End\pricing.aspx.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\pricing.aspx.designer.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Front End\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front End\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

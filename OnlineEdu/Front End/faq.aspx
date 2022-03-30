@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="faq.aspx.cs" Inherits="OnlineEdu.faq" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pricing plans || Kipso || Online Education Learning & LMS HTML Template</title>
+    <title>FAQ Page || Kipso || Online Education Learning & LMS HTML Template</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
@@ -47,7 +49,7 @@
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index-3.html">
+                        <a class="navbar-brand" href="index-3.aspx">
                             <img src="assets/images/logo-dark.png" class="main-logo" width="128" alt="Awesome Image" />
                         </a>
                         <div class="header__social">
@@ -64,24 +66,24 @@
                     <div class="main-navigation">
                         <ul class=" navigation-box">
                             <li class="current">
-                                <a href="index-3.html">Home</a>
+                                <a href="index-3.aspx">Home</a>
                             </li>
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="sub-menu">
-                                    <li><a href="pricing.html">Pricing Plans</a></li>
-                                    <li><a href="faq.html">FAQ'S</a></li>
+                                    <li><a href="pricing.aspx">Pricing Plans</a></li>
+                                    <li><a href="faq.aspx">FAQ'S</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="courses.html">Courses</a>
+                                <a href="courses.aspx">Courses</a>
                                 <ul class="sub-menu">
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="course-details-n5.html">Course Details</a></li>
+                                    <li><a href="courses.aspx">Courses</a></li>
+                                    <li><a href="course-details-n5.aspx">Course Details</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="Contact.aspx">Contact</a>
                             </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -110,74 +112,93 @@
             <div class="container">
                 <ul class="list-unstyled thm-breadcrumb">
                     <li><a href="#">Home</a></li>
-                    <li class="active"><a href="#">Pricing plans</a></li>
+                    <li class="active"><a href="#">FAQ</a></li>
                 </ul><!-- /.list-unstyled -->
-                <h2 class="inner-banner__title">Pricing plans</h2><!-- /.inner-banner__title -->
+                <h2 class="inner-banner__title">FAQ</h2><!-- /.inner-banner__title -->
             </div><!-- /.container -->
         </section><!-- /.inner-banner -->
-        <section class="pricing-one pricing-page">
+        <section class="faq-one">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="pricing-one__single">
-                            <div class="pricing-one__inner">
-                                <h2 class="pricing-one__price">4.000.000VND </h2><!-- /.pricing-one__price -->
-                                <p class="pricing-one__name">basic pack</p><!-- /.pricing-one__name -->
-                                <ul class="pricing-one__list list-unstyled">
-                                    <li>Combo N4+N5</li>
-                                    <li>Lifetime free support</li>
-                                    <li>Join forum</li>
-                                    <li>12 months time</li>
-                                </ul><!-- /.pricing-one__list -->
-                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
-                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
-                            </div><!-- /.pricing-one__inner -->
-                        </div><!-- /.pricing-one__single -->
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <div class="pricing-one__single">
-                            <div class="pricing-one__inner">
-                                <h2 class="pricing-one__price">5.000.000VND </h2><!-- /.pricing-one__price -->
-                                <p class="pricing-one__name">medium pack</p><!-- /.pricing-one__name -->
-                                <ul class="pricing-one__list list-unstyled">
-                                    <li>Combo N3+N2</li>
-                                    <li>Lifetime free support</li>
-                                    <li>Join forum</li>
-                                    <li>24 months time</li>
-                                </ul><!-- /.pricing-one__list -->
-                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
-                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
-                            </div><!-- /.pricing-one__inner -->
-                        </div><!-- /.pricing-one__single -->
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <div class="pricing-one__single">
-                            <div class="pricing-one__inner">
-                                <h2 class="pricing-one__price">5.500.000VND </h2><!-- /.pricing-one__price -->
-                                <p class="pricing-one__name">premium pack</p><!-- /.pricing-one__name -->
-                                <ul class="pricing-one__list list-unstyled">
-                                    <li>Combo N3+N2+N1</li>
-                                    <li>Lifetime free support</li>
-                                    <li>Join forum</li>
-                                    <li>36 months time</li>
-                                </ul><!-- /.pricing-one__list -->
-                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
-                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
-                            </div><!-- /.pricing-one__inner -->
-                        </div><!-- /.pricing-one__single -->
-                    </div><!-- /.col-lg-4 -->
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">Hello.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">We don't do contracts. You can cancel your monthly or annual
+                                    subscription at any time from within your
+                                    dashboard.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">We don't do contracts. You can cancel your monthly or annual
+                                    subscription at any time from within your
+                                    dashboard.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">We don't do contracts. You can cancel your monthly or annual
+                                    subscription at any time from within your
+                                    dashboard.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">We don't do contracts. You can cancel your monthly or annual
+                                    subscription at any time from within your
+                                    dashboard.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="faq-one__single">
+                            <div class="faq-one__icon">
+                                <span>?</span>
+                            </div><!-- /.faq-one__icon -->
+                            <div class="faq-one__content">
+                                <h2 class="faq-one__title">How long are your contracts?</h2><!-- /.faq-one__title -->
+                                <p class="faq-one__text">We don't do contracts. You can cancel your monthly or annual
+                                    subscription at any time from within your
+                                    dashboard.</p><!-- /.faq-one__text -->
+                            </div><!-- /.faq-one__content -->
+                        </div><!-- /.faq-one__single -->
+                    </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section><!-- /.pricing-one pricing-page -->
-        <section class="cta-one">
-            <div class="container">
-                <h2 class="cta-one__title">Fill form for free to regitser <br>
-                    yourself now</h2><!-- /.cta-one__title -->
-                <div class="cta-one__btn-block">
-                    <a href="#" class="thm-btn cta-one__btn">Start Learning Now</a><!-- /.thm-btn -->
-                </div><!-- /.cta-one__btn-block -->
-            </div><!-- /.container -->
-        </section><!-- /.cta-one -->
+        </section><!-- /.faq-one -->
         <footer class="site-footer">
             <div class="site-footer__upper">
                 <div class="container">
@@ -187,11 +208,11 @@
                                 <h2 class="footer-widget__title">Courses</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__course-list">
                                     <li>
-                                        <h2><a href="course-details-n5.html">Online Japanese for beginners</a></h2>
+                                        <h2><a href="course-details-n5.aspx">Online Japanese for beginners</a></h2>
                                         <p>Anh Minh</p>
                                     </li>
                                     <li>
-                                        <h2><a href="course-details-n5.html">  Online Japanese for intermediate students  </a></h2>
+                                        <h2><a href="course-details-n5.aspx"> Online Japanese for intermediate students </a></h2>
                                         <p>Thuy Chill</p>
                                     </li>
                                 </ul><!-- /.footer-widget__course-list -->
@@ -202,10 +223,10 @@
                                 <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
                                 <div class="footer-widget__link-wrap">
                                     <ul class="list-unstyled footer-widget__link-list">
-                                        <li><a href="index-3.html">Overview</a></li> 
-                                        <li><a href="courses.html">Course </a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="#">Register Now</a></li>
+                                        <li><a href="index-3.aspx">Overview</a></li> 
+                                        <li><a href="courses.aspx">Course </a></li>
+                                        <li><a href="Contact.aspx">Contact</a></li>
+                                        <li><a href="register.aspx">Register Now</a></li>
                                     </ul><!-- /.footer-widget__link-list -->
                                 </div><!-- /.footer-widget__link-wrap -->
                             </div><!-- /.footer-widget -->
@@ -229,8 +250,8 @@
                                 <p class="footer-widget__text"> Japanese learning center. <br>
                                     All of the narration contains English subtitles, so that foreigner Japanese learners can freely study.</p><!-- /.footer-widget__text -->
                                 <div class="footer-widget__btn-block">
-                                    <a href="contact.html" class="thm-btn">Contact</a><!-- /.thm-btn -->
-                                    <a href="#" class="thm-btn">Purchase</a><!-- /.thm-btn -->
+                                    <a href="Contact.aspx" class="thm-btn">Contact</a><!-- /.thm-btn -->
+                                    <a href="pricing.aspx" class="thm-btn">Purchase</a><!-- /.thm-btn -->
                                 </div><!-- /.footer-widget__btn-block -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-3 -->

@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnlineEdu.Front_End {
+namespace OnlineEdu {
     
     
-    public partial class WebForm1 {
+    public partial class register {
     }
 }

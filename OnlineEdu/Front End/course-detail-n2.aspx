@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="course-detail-n2.aspx.cs" Inherits="OnlineEdu.Front_End.course_detail_n2" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -124,7 +126,7 @@
 
                             <div class="course-details__top">
                                 <div class="course-details__top-left">
-                                    <h2 class="course-details__title">JLPT N4</h2>
+                                    <h2 class="course-details__title">JLPT N2</h2>
                                     <!-- /.course-details__title -->
                                     <div class="course-one__stars">
                                         <span class="course-one__stars-wrap">
@@ -139,11 +141,11 @@
                                     </div><!-- /.course-one__stars -->
                                 </div><!-- /.course-details__top-left -->
                                 <div class="course-details__top-right">
-                                    <a href="#" class="course-one__category">pre-intermediate</a><!-- /.course-one__category -->
+                                    <a href="#" class="course-one__category">low advanced</a><!-- /.course-one__category -->
                                 </div><!-- /.course-details__top-right -->
                             </div><!-- /.course-details__top -->
                             <div class="course-one__image">
-                                <img src="assets/images/course-d-2.jpg" alt="">
+                                <img src="assets/images/course-d-4.jpg" alt="">
                                 <i class="far fa-heart"></i><!-- /.far fa-heart -->
                             </div><!-- /.course-one__image -->
 
@@ -160,26 +162,25 @@
                             </ul><!-- /.course-details__tab-navs list-unstyled -->
                             <div class="tab-content course-details__tab-content ">
                                 <div class="tab-pane show active  animated fadeInUp" role="tabpanel" id="overview">
-                                    <p class="course-details__tab-text">The “Online Japanese N4 Course” are Japanese study materials related to the JLPT N4 level. You can study vocabulary, expressions, and grammar that correspond to the JLPT N4 level. The Japanese of N4 level is applied in actual conversations, so this course is useful for JLPT preparation and advancing your Japanese communication proficiency. 
+                                    <p class="course-details__tab-text">The “Online Japanese N2 Course” is Japanese study materials related to the JLPT N2 level. You can study vocabulary, expressions, and grammar that correspond to the JLPT N2 level. 
+                                        Furthermore, in order to advance communication proficiency in Japanese, you can watch video clips that show actual N2 level Japanese being used in daily conversations. 
+                                        
 
                                     </p><!-- /.course-details__tab-text -->
                                     <br>
-                                    <p class="course-details__tab-text">It is suitable for students who completed N5. You can learn and practice all four skills of the Japanese language — speaking, listening, reading, and writing.
-
-                                        Also, the Japanese courses are divided according to the levels of the Japanese Language Proficiency Test, so you can use the proper materials to prepare for the test.
+                                    <p class="course-details__tab-text">You will be able to access to our Video Lecture 24 hours a day. Our Live Lecture is in in small group. You can participate in classes anywhere with the internet connection. You can also access to the recorded lectures even if you are absent.
                                         
                                     </p>
                                     <!-- /.course-details__tab-text -->
                                     <br>
                                     <ul class="list-unstyled course-details__overview-list">
-                                        <li>Master vocabulary, expressions, and grammar related to the JLPT N4 level.</li>
-                                        <li>Be able to comprehend and read typical phrases and sentences written in N4 level kanji.</li>
-                                        <li>Be able to have speak and understand easy words of the honorific expressions.</li>
-                                        <li>Be able to comprehend contents slowly spoken in daily life conversations.</li>
+                                        <li>Master vocabulary, grammar, and reading comprehension related to the JLPT N2 .</li>
+                                        <li>Be able to read the articles and commentaries on a variety of topics, such as in newspapers and magazines, and comprehend their contents.</li>
+                                        <li>Be able to speak and understand advanced business Japanese.</li>
                                     </ul><!-- /.list-unstyled course-details__overview-list -->
                                 </div><!-- /.course-details__tab-content -->
                                 <div class="tab-pane  animated fadeInUp" role="tabpanel" id="curriculum">
-                                    <h3 class="course-details__tab-title">Starting pre-intermediate level course</h3>
+                                    <h3 class="course-details__tab-title">Starting beginners level course</h3>
                                     <!-- /.course-details__title -->
                                     <br>
                                     <p class="course-details__tab-text"></p>
@@ -222,7 +223,7 @@
                                                 </div><!-- /.course-details__icon -->
                                                 <a>Quiz</a>
                                             </div><!-- /.course-details__curriculum-list-left -->
-                                            <div class="course-details__curriculum-list-right">40 questions</div>
+                                            <div class="course-details__curriculum-list-right">55 questions</div>
                                             <!-- /.course-details__curriculum-list-right -->
                                         </li>
                                     </ul><!-- /.course-details__curriculum-list -->
@@ -260,7 +261,7 @@
                                                 </div><!-- /.course-details__icon -->
                                                 <a>Quiz</a>
                                             </div><!-- /.course-details__curriculum-list-left -->
-                                            <div class="course-details__curriculum-list-right">40 questions</div>
+                                            <div class="course-details__curriculum-list-right">50 questions</div>
                                             <!-- /.course-details__curriculum-list-right -->
                                         </li>
                                     </ul><!-- /.course-details__curriculum-list -->
@@ -338,10 +339,10 @@
                                                 <div class="course-details__comment-img">
                                                     <img src="assets/images/team-1-1.jpg" alt="">
                                                 </div><!-- /.course-details__comment-img -->
-                                                <div class="course-details__comment-right">Bao Chau</h2>
+                                                <div class="course-details__comment-right">Hoang My</h2>
                                                     <!-- /.course-details__comment-name -->
                                                     <div class="course-details__comment-meta">
-                                                        <p class="course-details__comment-date">19 Jan, 2022</p>
+                                                        <p class="course-details__comment-date">3 Oct, 2022</p>
                                                         <!-- /.course-details__comment-date -->
                                                         <div class="course-details__comment-stars">
                                                             <i class="fa fa-star"></i><!-- /.fa fa-star -->
@@ -353,7 +354,7 @@
                                                     </div><!-- /.course-details__comment-meta -->
                                                 </div><!-- /.course-details__comment-right -->
                                             </div><!-- /.course-details__comment-top -->
-                                            <p class="course-details__comment-text">A very good course. They have a very structured way of teaching. I like that they slowly introduce the kandji with the hiragana on the whiteboard along the way, and that they have english subtitles with the Japanese speakers. ありがとうございます!</p>
+                                            <p class="course-details__comment-text">I like that there are examples for each grammar point, and references to the conversation. An effective way to learn.</p>
                                             <!-- /.course-details__comment-text -->
                                         </div><!-- /.course-details__comment-single -->
                                         <div class="course-details__comment-single">
@@ -362,10 +363,10 @@
                                                     <img src="assets/images/team-1-2.jpg" alt="">
                                                 </div><!-- /.course-details__comment-img -->
                                                 <div class="course-details__comment-right">
-                                                    <h2 class="course-details__comment-name">Hoang Ha</h2>
+                                                    <h2 class="course-details__comment-name">Khanh Ly</h2>
                                                     <!-- /.course-details__comment-name -->
                                                     <div class="course-details__comment-meta">
-                                                        <p class="course-details__comment-date">16 Dec, 2021</p>
+                                                        <p class="course-details__comment-date">16 July, 2021</p>
                                                         <!-- /.course-details__comment-date -->
                                                         <div class="course-details__comment-stars">
                                                             <i class="fa fa-star"></i><!-- /.fa fa-star -->
@@ -377,7 +378,7 @@
                                                     </div><!-- /.course-details__comment-meta -->
                                                 </div><!-- /.course-details__comment-right -->
                                             </div><!-- /.course-details__comment-top -->
-                                            <p class="course-details__comment-text">Good course! It is well structured and I will definitely come back to it, when I need to review certain grammar points.</p>
+                                            <p class="course-details__comment-text">わかりやすい説明で覚えやすい。</p>
                                             <!-- /.course-details__comment-text -->
                                         </div><!-- /.course-details__comment-single -->
                                     </div><!-- /.course-details__comment -->
@@ -403,7 +404,7 @@
                     <div class="col-lg-4">
                         <div class="course-details__price">
                             <p class="course-details__price-text">Course price </p><!-- /.course-details__price-text -->
-                            <p class="course-details__price-amount">3.000.000VND</p><!-- /.course-details__price-amount -->
+                            <p class="course-details__price-amount">4.000.000VND</p><!-- /.course-details__price-amount -->
                             <a href="#" class="thm-btn course-details__price-btn">Buy This Course</a><!-- /.thm-btn -->
                         </div><!-- /.course-details__price -->
 
@@ -412,13 +413,13 @@
                                 <span class="course-details__meta-icon">
                                     <i class="far fa-clock"></i><!-- /.far fa-clock -->
                                 </span><!-- /.course-details__icon -->
-                                Durations: 6 months</span>
+                                Durations: 12 months</span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
                                     <i class="far fa-folder-open"></i><!-- /.far fa-folder-open -->
                                 </span><!-- /.course-details__icon -->
-                                Quizzes: 80</span>
+                                Quizzes: 214</span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
@@ -430,13 +431,13 @@
                                 <span class="course-details__meta-icon">
                                     <i class="fas fa-play"></i><!-- /.fas fa-play -->
                                 </span><!-- /.course-details__icon -->
-                                Video: 462 </span>
+                                Video: 979 </span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
                                     <i class="far fa-flag"></i><!-- /.far fa-flag -->
                                 </span><!-- /.course-details__icon -->
-                                Skill Level: Pre-intermediate</span>
+                                Skill Level: Low advanced</span>
                             </a><!-- /.course-details__meta-link -->
                             <a class="course-details__meta-link">
                                 <span class="course-details__meta-icon">
@@ -453,7 +454,7 @@
                                 </div><!-- /.course-details__list-img -->
                                 <div class="course-details__list-content">
                                     <a class="course-details__list-author">by <span>Anh Minh</span></a>
-                                    <h3><a href="course-details-n5.html">JLPT N5</a></h3>
+                                    <h3><a href="course-details-N4">JLPT N4</a></h3>
                                     <div class="course-details__list-stars">
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
@@ -483,11 +484,11 @@
                             </div><!-- /.course-details__list-item -->
                             <div class="course-details__list-item">
                                 <div class="course-details__list-img">
-                                    <img src="assets/images/lc-1-3.jpg" alt="">
+                                    <img src="assets/images/lc-1-0.jpg" alt="">
                                 </div><!-- /.course-details__list-img -->
                                 <div class="course-details__list-content">
-                                    <a class="course-details__list-author">by <span>Thuy Chill</span></a>
-                                    <h3><a href="course-details-n2.html">JLPT N2</a></h3>
+                                    <a class="course-details__list-author">by <span>Anh Minh</span></a>
+                                    <h3><a href="course-details-n5.html">JLPT N5</a></h3>
                                     <div class="course-details__list-stars">
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->
                                         <i class="fas fa-star"></i><!-- /.fas fa-star -->

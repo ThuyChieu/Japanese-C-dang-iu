@@ -1,3 +1,5 @@
+﻿                 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="OnlineEdu.register" %>
+
 <!DOCTYPE html>
 <!-- saved from url=(0102)https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html -->
 <html lang="zxx">
@@ -7,13 +9,13 @@
     <!-- Google Tag Manager -->
     <script async="" src="./Register/gtm.js.tải xuống"></script>
     <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TAGCODE');</script>
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-TAGCODE');</script>
     <!-- End Google Tag Manager -->
     <title>Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -2030,14 +2032,14 @@
                         <div class="form-section clearfix">
                             <div class="logo">
                                 <a
-                                    href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/login-16.html">
-                                    <img src="./Register/logo.png" alt="logo">
+                                    href="register.aspx">
+                                    <img src="assets/images/logo-light.png" alt="logo">
                                 </a>
                             </div>
                             <h3>Create An Cccount</h3>
                             <div class="clearfix"></div>
                             <form
-                                action="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html#"
+                                action="index-3.aspx"
                                 method="GET">
                                 <div class="form-group clearfix">
                                     <div class="form-box">
@@ -2076,7 +2078,7 @@
                                 </div>
                             </form>
                             <p>Already a member? <a
-                                    href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/login-16.html">Login
+                                    href="Login.aspx">Login
                                     here</a></p>
                         </div>
                     </div>
@@ -2090,19 +2092,19 @@
                                 <div class="content">
                                     <h3>We Make Spectacular</h3>
                                     <div class="social-list">
-                                        <a href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html#"
+                                        <a href="#"
                                             class="facebook-bg">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html#"
+                                        <a href="#"
                                             class="twitter-bg">
                                             <i class="fa fa-twitter"></i>
                                         </a>
-                                        <a href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html#"
+                                        <a href="#"
                                             class="google-bg">
                                             <i class="fa fa-google"></i>
                                         </a>
-                                        <a href="https://storage.googleapis.com/theme-vessel-items/checking-sites/logdy-html/HTML/main/register-16.html#"
+                                        <a href="#"
                                             class="linkedin-bg">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
@@ -2126,12 +2128,6 @@
     <script src="./Register/popper.min.js.tải xuống"></script>
     <script src="./Register/bootstrap.bundle.min.js.tải xuống"></script>
     <!-- Custom JS Script -->
-
-    <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe
-        id="nr-ext-rsicon"
-        style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"
-        src="./Register/saved_resource.html"></iframe>
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>

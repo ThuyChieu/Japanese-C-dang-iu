@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="pricing.aspx.cs" Inherits="OnlineEdu.pricing" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Page || Kipso || Online Education Learning & LMS HTML Template</title>
+    <title>Pricing plans || Kipso || Online Education Learning & LMS HTML Template</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
@@ -47,7 +49,7 @@
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index-3.html">
+                        <a class="navbar-brand" href="index-3.aspx">
                             <img src="assets/images/logo-dark.png" class="main-logo" width="128" alt="Awesome Image" />
                         </a>
                         <div class="header__social">
@@ -64,24 +66,24 @@
                     <div class="main-navigation">
                         <ul class=" navigation-box">
                             <li class="current">
-                                <a href="index-3.html">Home</a>
+                                <a href="index-3.aspx">Home</a>
                             </li>
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="sub-menu">
-                                    <li><a href="pricing.html">Pricing Plans</a></li>
-                                    <li><a href="faq.html">FAQ'S</a></li>
+                                    <li><a href="pricing.aspx">Pricing Plans</a></li>
+                                    <li><a href="faq.aspx">FAQ'S</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="courses.html">Courses</a>
+                                <a href="courses.aspx">Courses</a>
                                 <ul class="sub-menu">
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="course-details.html">Course Details</a></li>
+                                    <li><a href="courses.aspx">Courses</a></li>
+                                    <li><a href="course-details-n5.aspx">Course Details</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="Contact.aspx">Contact</a>
                             </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -110,70 +112,74 @@
             <div class="container">
                 <ul class="list-unstyled thm-breadcrumb">
                     <li><a href="#">Home</a></li>
-                    <li class="active"><a href="#">Contact</a></li>
+                    <li class="active"><a href="#">Pricing plans</a></li>
                 </ul><!-- /.list-unstyled -->
-                <h2 class="inner-banner__title">Contact</h2><!-- /.inner-banner__title -->
+                <h2 class="inner-banner__title">Pricing plans</h2><!-- /.inner-banner__title -->
             </div><!-- /.container -->
         </section><!-- /.inner-banner -->
-        <section class="contact-info-one">
+        <section class="pricing-one pricing-page">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="contact-info-one__single wow fadeInDown" data-wow-duration="1500ms">
-                            <div class="contact-info-one__icon"><i class="kipso-icon-manager"></i><!-- /.kipso-icon-manager -->
-                            </div><!-- /.contact-info-one__icon -->
-                            <h2 class="contact-info-one__title">About Us </h2><!-- /.contact-info-one__title -->
-                            <p class="contact-info-one__text">Japanese learning center
-                                </p><!-- /.contact-info-one__text -->
-                        </div><!-- /.contact-info-one__single -->
+                        <div class="pricing-one__single">
+                            <div class="pricing-one__inner">
+                                <h2 class="pricing-one__price">4.000.000VND </h2><!-- /.pricing-one__price -->
+                                <p class="pricing-one__name">basic pack</p><!-- /.pricing-one__name -->
+                                <ul class="pricing-one__list list-unstyled">
+                                    <li>Combo N4+N5</li>
+                                    <li>Lifetime free support</li>
+                                    <li>Join forum</li>
+                                    <li>12 months time</li>
+                                </ul><!-- /.pricing-one__list -->
+                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
+                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
+                            </div><!-- /.pricing-one__inner -->
+                        </div><!-- /.pricing-one__single -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
-                        <div class="contact-info-one__single wow fadeInUp" data-wow-duration="1500ms">
-                            <div class="contact-info-one__icon"><i class="kipso-icon-placeholder"></i>
-                                <!-- /.kipso-icon-manager -->
-                            </div><!-- /.contact-info-one__icon -->
-                            <h2 class="contact-info-one__title">Our Address</h2><!-- /.contact-info-one__title -->
-                            <p class="contact-info-one__text">71 Ngu Hanh Son,
-                                Da Nang <br> Viet Nam</p><!-- /.contact-info-one__text -->
-                        </div><!-- /.contact-info-one__single -->
+                        <div class="pricing-one__single">
+                            <div class="pricing-one__inner">
+                                <h2 class="pricing-one__price">5.000.000VND </h2><!-- /.pricing-one__price -->
+                                <p class="pricing-one__name">medium pack</p><!-- /.pricing-one__name -->
+                                <ul class="pricing-one__list list-unstyled">
+                                    <li>Combo N3+N2</li>
+                                    <li>Lifetime free support</li>
+                                    <li>Join forum</li>
+                                    <li>24 months time</li>
+                                </ul><!-- /.pricing-one__list -->
+                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
+                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
+                            </div><!-- /.pricing-one__inner -->
+                        </div><!-- /.pricing-one__single -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
-                        <div class="contact-info-one__single wow fadeInDown" data-wow-duration="1500ms">
-                            <div class="contact-info-one__icon"><i class="kipso-icon-contact"></i><!-- /.kipso-icon-manager -->
-                            </div><!-- /.contact-info-one__icon -->
-                            <h2 class="contact-info-one__title">Contact Info</h2><!-- /.contact-info-one__title -->
-                            <p class="contact-info-one__text">chieuthuymaijenny@gmail.com<br>
-                                0963 779 109 <br> &nbsp; </p><!-- /.contact-info-one__text -->
-                        </div><!-- /.contact-info-one__single -->
+                        <div class="pricing-one__single">
+                            <div class="pricing-one__inner">
+                                <h2 class="pricing-one__price">5.500.000VND </h2><!-- /.pricing-one__price -->
+                                <p class="pricing-one__name">premium pack</p><!-- /.pricing-one__name -->
+                                <ul class="pricing-one__list list-unstyled">
+                                    <li>Combo N3+N2+N1</li>
+                                    <li>Lifetime free support</li>
+                                    <li>Join forum</li>
+                                    <li>36 months time</li>
+                                </ul><!-- /.pricing-one__list -->
+                                <a href="#" class="thm-btn pricing-one__btn">Choose Plan</a><!-- /.thm-btn -->
+                                <p class="pricing-one__tag-line">No hidden charges!</p><!-- /.pricing-one__tag-line -->
+                            </div><!-- /.pricing-one__inner -->
+                        </div><!-- /.pricing-one__single -->
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section><!-- /.contact-info-one -->
-        <section class="contact-one">
+        </section><!-- /.pricing-one pricing-page -->
+        <section class="cta-one">
             <div class="container">
-                <h2 class="contact-one__title text-center">Get in touch <br>
-                    with us</h2><!-- /.contact-one__title -->
-                <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
-                    <div class="row low-gutters">
-                        <div class="col-lg-6">
-                            <input type="text" name="name" placeholder="Your Name">
-                        </div><!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <input type="text" placeholder="Email Address" name="email">
-                        </div><!-- /.col-lg-6 -->
-                        <div class="col-lg-12">
-                            <textarea placeholder="Write Message" name="message"></textarea>
-                            <div class="text-center">
-                                <button type="submit" class="contact-one__btn thm-btn">Submit Comment</button>
-                            </div><!-- /.text-center -->
-                        </div><!-- /.col-lg-12 -->
-                    </div><!-- /.row -->
-                </form><!-- /.contact-one__form -->
-                <div class="result text-center"></div><!-- /.result -->
+                <h2 class="cta-one__title">Fill form for free to regitser <br>
+                    yourself now</h2><!-- /.cta-one__title -->
+                <div class="cta-one__btn-block">
+                    <a href="#" class="thm-btn cta-one__btn">Start Learning Now</a><!-- /.thm-btn -->
+                </div><!-- /.cta-one__btn-block -->
             </div><!-- /.container -->
-        </section><!-- /.contact-one -->
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" class="google-map__contact" allowfullscreen></iframe>
+        </section><!-- /.cta-one -->
         <footer class="site-footer">
             <div class="site-footer__upper">
                 <div class="container">
@@ -183,11 +189,11 @@
                                 <h2 class="footer-widget__title">Courses</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__course-list">
                                     <li>
-                                        <h2><a href="course-details.html">Online Japanese for beginners</a></h2>
+                                        <h2><a href="course-details-n5.aspx">Online Japanese for beginners</a></h2>
                                         <p>Anh Minh</p>
                                     </li>
                                     <li>
-                                        <h2><a href="course-details.html">  Online Japanese for intermediate students </a></h2>
+                                        <h2><a href="course-details-n5.aspx">  Online Japanese for intermediate students  </a></h2>
                                         <p>Thuy Chill</p>
                                     </li>
                                 </ul><!-- /.footer-widget__course-list -->
@@ -198,10 +204,10 @@
                                 <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
                                 <div class="footer-widget__link-wrap">
                                     <ul class="list-unstyled footer-widget__link-list">
-                                        <li><a href="index-3.html">Overview</a></li> 
-                                        <li><a href="courses.html">Course </a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="#">Register Now</a></li>
+                                        <li><a href="index-3.aspx">Overview</a></li> 
+                                        <li><a href="courses.aspx">Course </a></li>
+                                        <li><a href="contact.aspx">Contact</a></li>
+                                        <li><a href="register.aspx">Register Now</a></li>
                                     </ul><!-- /.footer-widget__link-list -->
                                 </div><!-- /.footer-widget__link-wrap -->
                             </div><!-- /.footer-widget -->
@@ -225,8 +231,8 @@
                                 <p class="footer-widget__text"> Japanese learning center. <br>
                                     All of the narration contains English subtitles, so that foreigner Japanese learners can freely study.</p><!-- /.footer-widget__text -->
                                 <div class="footer-widget__btn-block">
-                                    <a href="contact.html" class="thm-btn">Contact</a><!-- /.thm-btn -->
-                                    <a href="#" class="thm-btn">Purchase</a><!-- /.thm-btn -->
+                                    <a href="Contact.aspx" class="thm-btn">Contact</a><!-- /.thm-btn -->
+                                    <a href="pricing.aspx" class="thm-btn">Purchase</a><!-- /.thm-btn -->
                                 </div><!-- /.footer-widget__btn-block -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-lg-3 -->

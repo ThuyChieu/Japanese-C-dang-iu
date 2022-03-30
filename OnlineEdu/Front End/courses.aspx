@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="courses.aspx.cs" Inherits="OnlineEdu.courses" %>
+
 <!DOCTYPE html>
 <html lang="en">
 

@@ -10,42 +10,42 @@
 namespace OnlineEdu.Front_End {
     
     
-    public partial class Login {
+    public partial class Contact {
         
         /// <summary>
-        /// loginForm control.
+        /// name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm loginForm;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText name;
         
         /// <summary>
-        /// emailInput control.
+        /// email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailInput;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText email;
         
         /// <summary>
-        /// passwordInput control.
+        /// message control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordInput;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText message;
         
         /// <summary>
-        /// loginBtn control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginBtn;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit;
     }
 }

@@ -2043,24 +2043,24 @@
                 method="POST">
                 <div class="form-group clearfix">
                   <div class="form-box">
-                    <input name="email" type="email" class="form-control" id="emailInput" runat="server" placeholder="Email Address"
-                      aria-label="Email Address">
+                    <asp:TextBox name="email" type="email" class="form-control" Id="emailInput" runat="server" placeholder="Email Address"
+                      aria-label="Email Address" />
                     <i class="flaticon-mail-2"></i>
                   </div>
                 </div>
                 <div class="form-group clearfix">
                   <div class="form-box">
-                    <input name="password" type="password" class="form-control" autocomplete="off" id="passwordInput" runat="server"
-                      placeholder="Password" aria-label="Password">
+                    <asp:TextBox name="password" type="password" class="form-control" autocomplete="off" Id="passwordInput" runat="server"
+                      placeholder="Password" aria-label="Password" />
                     <i class="flaticon-password"></i>
                   </div>
                 </div>
                 <div class="form-group clearfix">
-                  <asp:Button ID="loginBtn" runat="server" postbackurl="Home.aspx" type="submit" class="btn btn-primary btn-lg btn-theme w-100" Text="Login" OnClick="loginBtn_Click" />
+                  <asp:Button ID="loginBtn" runat="server" postbackurl="index-3.aspx" type="submit" class="btn btn-primary btn-lg btn-theme w-100" Text="Login" OnClick="loginBtn_Click" />
                 </div>
               </form>
 
-              <p>Don't have an account? <a href="register.html">Register
+              <p>Don't have an account? <a href="register.aspx">Register
                   here</a></p>
             </div>
           </div>
@@ -2111,11 +2111,6 @@
   <script src="./Login/bootstrap.bundle.min.js.tải xuống"></script>
   <script src="./Login/app.js.tải xuống"></script>
   <!-- Custom JS Script -->
-
-  <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon"
-    style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"
-    src="./Login/saved_resource.html"></iframe>
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
