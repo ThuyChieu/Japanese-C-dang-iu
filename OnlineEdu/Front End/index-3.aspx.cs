@@ -11,10 +11,14 @@ namespace OnlineEdu
     {
         protected void Page_Load(object sender, EventArgs e)                          
         {
-            TextBox emailInput = (TextBox) Page.PreviousPage.FindControl("emailInput");
-            TextBox password = (TextBox) Page.PreviousPage.FindControl("passwordInput");
-            email.InnerText = emailInput.Text;
-            phone.InnerText = password.Text;
+            //TextBox emailInput = (TextBox) Page.PreviousPage.FindControl("emailInput");
+            //TextBox password = (TextBox) Page.PreviousPage.FindControl("passwordInput");
+            //email.InnerText = emailInput.Text;
+            //phone.InnerText = password.Text;
+        }
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

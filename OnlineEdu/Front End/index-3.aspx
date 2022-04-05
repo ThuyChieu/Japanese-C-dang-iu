@@ -108,7 +108,7 @@
                                 with us now</h2><!-- /.slider-three__title -->
                             <form action="#" class="slider-three__search">
                                 <input type="text" placeholder="Search courses">
-                                <button type="submit"><i class="kipso-icon-magnifying-glass"></i>
+                                <button id="btnSearch" runat="server" class="kipso-icon-magnifying-glass" onclick="btnSearch_Click">Search Click</button>
                                     <!-- /.kipso-icon-magnifying-glass --></button>
                             </form><!-- /.slider-three__search -->
                         </div><!-- /.slider-three__content -->
@@ -468,7 +468,7 @@
                                             </div><!-- /.progress-one__single -->
                                         </div><!-- /.progress-one__wrap -->
 
-                                        <a href="course-details-n3.aspx" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
+                                        <a href="course-detail-n5.aspx" class="thm-btn team-tab__btn">Learn More</a><!-- /.thm-btn -->
                                     </div><!-- /.team-tab__content -->
                                 </div><!-- /.my-auto -->
                             </div><!-- /.col-lg-6 -->
